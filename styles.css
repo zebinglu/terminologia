@@ -26,7 +26,7 @@ header {
   display: flex;
   align-items: end;
   height: 120px;
-  background-color: #ab2a3e;
+  background-color: #C80F2E;
 }
 
 .author {
@@ -102,6 +102,11 @@ header {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+.container__note {
+  margin-top: 25px;
+  font-size: 14px;
 }
 
 article {
