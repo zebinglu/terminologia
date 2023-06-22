@@ -4,6 +4,10 @@
   font-family: "Raleway", sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -15,11 +19,13 @@ p {
 }
 body {
   background-color: #f7f9fc;
+  height: 100%;
 }
 
 main {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 header {
@@ -54,9 +60,12 @@ header {
 }
 
 .container {
+  height: 100%;
   width: 1200px;
   margin-top: 50px;
   align-self: center;
+  display: flex;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -116,4 +125,15 @@ article {
 
 article a {
   padding: 0 10px;
+}
+
+.iula-logo {
+  align-self: flex-end;
+  margin-bottom: 25px;
+}
+
+.logo-container {
+  height: 100%;
+  display: flex;
+  align-self: end;
 }
